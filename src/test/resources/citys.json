@@ -1,0 +1,24 @@
+[
+  {
+    "id": 3549904,
+    "nome": "São José dos Campos",
+    "microrregiao": {
+      "id": 35050,
+      "nome": "São José dos Campos",
+      "mesorregiao": {
+        "id": 3513,
+        "nome": "Vale do Paraíba Paulista",
+        "UF": {
+          "id": 35,
+          "sigla": "SP",
+          "nome": "São Paulo",
+          "regiao": {
+            "id": 3,
+            "sigla": "SE",
+            "nome": "Sudeste"
+          }
+        }
+      }
+    }
+  }
+]

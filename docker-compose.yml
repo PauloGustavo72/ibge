@@ -1,0 +1,16 @@
+version: '3.0'
+
+services:
+  api-ibge:
+    image: paulogustavo72/api-ibge:v2
+    depends_on:
+      - redis
+    ports:
+      - 8080:8080
+    container_name: api-ibge
+
+  redis:
+    image: redis
+    ports:
+      - 6379:6379
+    container_name: redis
